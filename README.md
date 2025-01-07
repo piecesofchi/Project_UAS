@@ -70,10 +70,10 @@ Main Program
 
 '''python
 
-def main():
-    data = Data()
-    view = View()
-    process = Process(data, view)
+    def main():
+        data = Data()
+        view = View()
+        process = Process(data, view)
 
     while True:
         print("\n--- Menu Perpustakaan ---")
