@@ -8,7 +8,14 @@ Program ini memiliki tiga komponen utama
 
 '''python
  
-    
+    def __init__(self):  # Corrected __init__ method
+        self.books = []
+
+    def add_book(self, title, author, year):
+        self.books.append({"title": title, "author": author, "year": year})
+
+    def get_books(self):
+        return self.books   
 
 Bertanggung jawab untuk menyimpan dan mengelola data buku yang ada di perpustakaan. Data ini disimpan dalam bentuk daftar yang terdiri dari leksikon, dengan judul, penulis, dan tahun       terbit untuk setiap buku.
 
@@ -90,5 +97,5 @@ def main():
 
 OUTPUT
 
-![Capture](https://github.com/user-attachments/assets/899a75d0-ea76-41bb-ae0c-9c9a3fd55c8b)
+![uas](https://github.com/user-attachments/assets/2773c85a-621a-4ac8-851d-90553d7ec4f5)
 
