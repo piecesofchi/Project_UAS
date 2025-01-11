@@ -37,3 +37,7 @@ OUTPUT
 
 ![uas](https://github.com/user-attachments/assets/2773c85a-621a-4ac8-851d-90553d7ec4f5)
 
+LINK VIDEO PENJELASAN
+
+https://youtu.be/tPP2DuPYpjo?si=K5hv6vg_bplDwceh
+
